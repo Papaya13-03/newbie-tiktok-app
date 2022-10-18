@@ -1,0 +1,15 @@
+.wrap {
+    background-color: #fff;
+    width: 70%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.wrap::-webkit-scrollbar{
+    background-color: #fff;
+    width: 5px;
+}
+
+.wrap::-webkit-scrollbar-thumb{
+    background-color: rgb(99, 99, 99);
+}

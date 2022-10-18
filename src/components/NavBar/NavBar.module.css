@@ -1,0 +1,21 @@
+.link {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.active {
+    color: rgb(254 44 85);
+}
+.link i{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.link:hover {
+    background-color: rgb(241, 241, 241);
+}

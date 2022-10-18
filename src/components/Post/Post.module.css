@@ -1,0 +1,38 @@
+.wrap {
+    height: 915px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 20px 10px 5px;
+    display: flex;
+}
+.bottomLine {
+    position: relative;
+}
+
+.bottomLine::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.followBtn {
+    width: 90px;
+    height: 34px;
+    outline: none;
+    border: 1px solid #fe2c55;
+    color: #fe2c55;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 10px ;
+    font-weight: 600;
+}
+
+.followBtn:hover {
+    background-color: rgb(240, 240, 240);
+}

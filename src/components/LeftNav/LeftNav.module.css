@@ -1,0 +1,17 @@
+.wrap {
+    height: calc(100vh - 60px);
+    width: 30%;
+    background-color: #21ac6d;
+    overflow-y: hidden;
+}
+.wrap:hover {
+    overflow-y: scroll;
+}
+.wrap::-webkit-scrollbar {
+    width: 5px;
+    background-color: #fff;
+}
+.wrap::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: rgb(117, 117, 117);
+}

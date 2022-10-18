@@ -1,0 +1,48 @@
+.wrap {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.userNav {
+    position: absolute;
+    right: 0;
+    top: 52px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.333);
+    display: none;
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+.userNav::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 5%;
+    transform: rotate(180deg);
+    border-left:10px solid transparent ;
+    border-right:10px solid transparent ;
+    border-top:10px solid  rgb(255, 255, 255);
+    border-bottom:10px solid transparent ;
+}
+
+.userNav ul {
+    list-style: none;
+}
+
+.userNav ul li{
+    font-size: 20px;
+    padding: 8px 0px 8px 20px;
+    cursor: pointer;
+}
+
+.userNav ul li:hover{
+    background-color: rgb(220, 209, 209);
+}
+ 
+
+.userNav ul li i{
+    margin-right:10px;
+}
